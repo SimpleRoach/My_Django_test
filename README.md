@@ -1,2 +1,1 @@
-Django project.
-There is a blog application here
+First Django project.
