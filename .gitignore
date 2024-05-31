@@ -5,6 +5,8 @@ venv.bak/
 .venv/
 
 /.idea/
+.gitignore
+.idea/
 
 *.log
 local_settings.py
