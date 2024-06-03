@@ -5,10 +5,10 @@ from .models import Question, Choice
 
 class QuestionAdmin(admin.ModelAdmin):
     fieldsets = [
-        (None, {'fields':['question_text']}),
-        ("Date information", {'fields':["pub_date"]})
+        ("Вопрос", {'fields':['question_text']}),
+        ("Настройка времени", {'fields':["pub_date"]})
     ]
     # fields = ["pub_date", "question_text"]
 
 admin.site.register(Question, QuestionAdmin)
-
+admin.site.register(Choice)
