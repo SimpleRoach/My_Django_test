@@ -1,6 +1,8 @@
 
 li a {
-    color: #034803;
+    color: #ffffff;
 }
 
-
+body {
+    background: white url("images/background.png") no-repeat;
+}
